@@ -3,8 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0rem;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .pokemon-filters .form-control,
@@ -12,5 +11,5 @@
 .pokemon-filters .input-group-text,
 .pokemon-filters .btn,
 .pokemon-filters .btn-group {
-  font-size: 0.9rem !important;
+  font-size: 0.7rem !important;
 } 
