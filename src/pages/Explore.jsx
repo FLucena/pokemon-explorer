@@ -2,6 +2,7 @@ import { useState } from 'react'
 import PokemonCard from '../components/PokemonCard'
 import PokemonFilters from '../components/PokemonFilters'
 import usePokemons from '../hooks/usePokemons'
+import { Container } from 'react-bootstrap'
 
 const Explore = () => {
   const { pokemons, loading, error, refreshPokemons } = usePokemons();
@@ -57,7 +58,7 @@ const Explore = () => {
   }
 
   return (
-    <>
+    <Container>
       <PokemonFilters 
         filters={filters} 
         onFilterChange={setFilters}
@@ -97,7 +98,7 @@ const Explore = () => {
           ))}
         </div>
       )}
-    </>
+    </Container>
   );
 };
 
